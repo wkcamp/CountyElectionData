@@ -1,0 +1,889 @@
+02 = AGAINST THE TAX
+
+10
+45.45
+04 = UNDER VOTES
+1
+-----------------------01
+02
+03
+04
+-----------------------0025 SOMERFORD
+12
+10
+0
+1
+====================================================================================================================================
+WITH 10 OF 10 PRECINCTS REPORTING
+VOTES PERCENT
+VOTES PERCENT
+London Public Library - Renewal and Increase
+01 = FOR THE TAX LEVY
+2,442
+66.45
+03 = OVER VOTES
+2
+02 = AGAINST THE TAX LEVY
+1,233
+33.55
+04 = UNDER VOTES
+103
+-----------------------01
+02
+03
+04
+-----------------------0001 LONDON 1-A
+116
+69
+0
+4
+0002 LONDON 1-B
+338
+183
+0
+17
+0003 LONDON 2
+464
+184
+1
+20
+0004 LONDON 3
+197
+116
+0
+11
+0005 LONDON 4
+382
+153
+0
+14
+0010 DEERCREEK
+187
+105
+0
+6
+0023 CHOCTAW LAKE EAST
+229
+117
+0
+13
+0024 CHOCTAW LAKE WEST
+302
+126
+1
+9
+0025 SOMERFORD
+170
+144
+0
+7
+0027 UNION
+57
+36
+0
+2
+====================================================================================================================================
+WITH 8 OF 8 PRECINCTS REPORTING
+VOTES PERCENT
+VOTES PERCENT
+Plain City Public Library - Replacement and Increase
+01 = FOR THE TAX LEVY
+1,270
+58.15
+03 = OVER VOTES
+1
+02 = AGAINST THE TAX LEVY
+914
+41.85
+04 = UNDER VOTES
+72
+-----------------------01
+02
+03
+04
+-----------------------0006 CANAAN
+351
+277
+0
+28
+0007 PLAIN CITY EAST
+277
+147
+1
+10
+0008 PLAIN CITY WEST
+332
+178
+0
+14
+0009 DARBY
+117
+93
+0
+6
+0010 DEERCREEK
+3
+1
+0
+0
+0014 JEFFERSON TWP A
+7
+23
+0
+0
+0016 MONROE
+180
+194
+0
+14
+0025 SOMERFORD
+3
+1
+0
+0
+====================================================================================================================================
+WITH 2 OF 2 PRECINCTS REPORTING
+VOTES PERCENT
+VOTES PERCENT
+Pleasant-Darby Union Cem Dist - Replacement and Increase
+01 = FOR THE TAX LEVY
+488
+63.38
+03 = OVER VOTES
+0
+02 = AGAINST THE TAX LEVY
+282
+36.62
+04 = UNDER VOTES
+36
+-----------------------01
+02
+03
+04
+-----------------------0020 MT. STERLING
+258
+139
+0
+20
+0021 PLEASANT
+230
+143
+0
+16
+====================================================================================================================================
+WITH 27 OF 27 PRECINCTS REPORTING
+VOTES PERCENT
+VOTES PERCENT
+Madison County - DD - Renewal
+01 = FOR THE TAX LEVY
+7,955
+75.59
+03 = OVER VOTES
+4
+02 = AGAINST THE TAX LEVY
+2,569
+24.41
+04 = UNDER VOTES
+370
+-----------------------01
+02
+03
+04
+-----------------------0001 LONDON 1-A
+135
+48
+1
+5
+0002 LONDON 1-B
+404
+121
+0
+13
+0003 LONDON 2
+506
+139
+0
+24
+0004 LONDON 3
+234
+78
+0
+12
+0005 LONDON 4
+428
+104
+0
+17
+0006 CANAAN
+474
+155
+0
+27
+0007 PLAIN CITY EAST
+317
+107
+0
+11
+0008 PLAIN CITY WEST
+384
+120
+0
+20
+0009 DARBY
+174
+49
+0
+8
+0010 DEERCREEK
+218
+71
+0
+13
+0011 FAIRFIELD
+323
+128
+0
+22
+0012 W JEFFERSON A
+494
+150
+1
+26
+0013 W JEFFERSON B
+351
+132
+0
+17
+0014 JEFFERSON TWP A
+421
+136
+1
+11
+0015 JEFFERSON TWP B
+363
+103
+0
+18
+0016 MONROE
+274
+95
+0
+19
+0017 OAK RUN
+142
+32
+0
+10
+0018 PAINT
+141
+71
+1
+2
+0019 PIKE
+91
+47
+0
+6
+0020 MT. STERLING
+290
+105
+0
+22
+0021 PLEASANT
+279
+96
+0
+14
+0022 MIDWAY/RANGE
+236
+59
+0
+4
+0023 CHOCTAW LAKE EAST
+278
+68
+0
+13
+0024 CHOCTAW LAKE WEST
+339
+89
+0
+10
+0025 SOMERFORD
+243
+97
+0
+8
+0026 SOUTH SOLON/STOKES
+120
+43
+0
+7
+0027 UNION
+296
+126
+0
+11
+
+====================================================================================================================================
+WITH 27 OF 27 PRECINCTS REPORTING
+VOTES PERCENT
+VOTES PERCENT
+Madison County - Senior Citizens Center
+01 = FOR THE TAX LEVY
+7,850
+74.57
+03 = OVER VOTES
+0
+02 = AGAINST THE TAX LEVY
+2,677
+25.43
+04 = UNDER VOTES
+371
+-----------------------01
+02
+03
+04
+-----------------------0001 LONDON 1-A
+136
+49
+0
+4
+0002 LONDON 1-B
+402
+122
+0
+14
+0003 LONDON 2
+521
+128
+0
+20
+0004 LONDON 3
+236
+75
+0
+13
+0005 LONDON 4
+435
+98
+0
+16
+0006 CANAAN
+460
+162
+0
+34
+0007 PLAIN CITY EAST
+297
+123
+0
+15
+0008 PLAIN CITY WEST
+369
+134
+0
+21
+0009 DARBY
+157
+58
+0
+16
+0010 DEERCREEK
+227
+63
+0
+12
+0011 FAIRFIELD
+326
+127
+0
+20
+0012 W JEFFERSON A
+471
+178
+0
+22
+0013 W JEFFERSON B
+348
+134
+0
+18
+0014 JEFFERSON TWP A
+404
+149
+0
+16
+0015 JEFFERSON TWP B
+350
+114
+0
+20
+0016 MONROE
+269
+102
+0
+17
+0017 OAK RUN
+138
+38
+0
+8
+0018 PAINT
+144
+69
+0
+2
+0019 PIKE
+92
+45
+0
+7
+0020 MT. STERLING
+284
+112
+0
+21
+0021 PLEASANT
+277
+101
+0
+11
+0022 MIDWAY/RANGE
+240
+51
+0
+8
+0023 CHOCTAW LAKE EAST
+281
+70
+0
+8
+0024 CHOCTAW LAKE WEST
+330
+104
+0
+4
+0025 SOMERFORD
+237
+101
+0
+10
+0026 SOUTH SOLON/STOKES
+126
+42
+0
+2
+0027 UNION
+293
+128
+0
+12
+====================================================================================================================================
+WITH 27 OF 27 PRECINCTS REPORTING
+VOTES PERCENT
+VOTES PERCENT
+Madison County - London City Health Dist
+01 = FOR THE TAX LEVY
+7,290
+69.65
+03 = OVER VOTES
+2
+02 = AGAINST THE TAX LEVY
+3,177
+30.35
+04 = UNDER VOTES
+429
+-----------------------01
+02
+03
+04
+-----------------------0001 LONDON 1-A
+142
+44
+0
+3
+0002 LONDON 1-B
+390
+132
+0
+16
+0003 LONDON 2
+512
+137
+0
+20
+0004 LONDON 3
+232
+82
+0
+10
+0005 LONDON 4
+411
+125
+0
+13
+0006 CANAAN
+412
+206
+0
+38
+0007 PLAIN CITY EAST
+244
+167
+0
+24
+0008 PLAIN CITY WEST
+336
+153
+0
+35
+0009 DARBY
+137
+77
+0
+17
+0010 DEERCREEK
+229
+64
+0
+9
+0011 FAIRFIELD
+302
+155
+0
+16
+0012 W JEFFERSON A
+423
+213
+0
+35
+0013 W JEFFERSON B
+293
+175
+0
+32
+0014 JEFFERSON TWP A
+362
+184
+0
+23
+0015 JEFFERSON TWP B
+316
+146
+0
+22
+0016 MONROE
+243
+125
+0
+20
+0017 OAK RUN
+142
+37
+0
+5
+0018 PAINT
+141
+71
+0
+3
+0019 PIKE
+81
+57
+0
+6
+0020 MT. STERLING
+265
+131
+0
+21
+0021 PLEASANT
+244
+129
+1
+15
+0022 MIDWAY/RANGE
+223
+69
+0
+7
+0023 CHOCTAW LAKE EAST
+258
+86
+0
+15
+0024 CHOCTAW LAKE WEST
+321
+109
+0
+8
+0025 SOMERFORD
+227
+111
+1
+9
+0026 SOUTH SOLON/STOKES
+121
+48
+0
+1
+0027 UNION
+283
+144
+0
+6
+====================================================================================================================================
+WITH 27 OF 27 PRECINCTS REPORTING
+VOTES PERCENT
+VOTES PERCENT
+County Mental Health & Recovery Srvc.
+01 = FOR THE TAX LEVY
+7,877
+74.56
+03 = OVER VOTES
+1
+02 = AGAINST THE TAX LEVY
+2,688
+25.44
+04 = UNDER VOTES
+332
+-----------------------01
+02
+03
+04
+-----------------------0001 LONDON 1-A
+147
+38
+0
+4
+0002 LONDON 1-B
+399
+127
+0
+12
+0003 LONDON 2
+516
+135
+0
+18
+0004 LONDON 3
+236
+75
+0
+13
+0005 LONDON 4
+422
+112
+0
+15
+0006 CANAAN
+474
+156
+0
+26
+0007 PLAIN CITY EAST
+300
+115
+0
+20
+
+0008 PLAIN CITY WEST
+383
+114
+0
+27
+0009 DARBY
+168
+49
+0
+14
+0010 DEERCREEK
+223
+69
+0
+10
+0011 FAIRFIELD
+333
+122
+1
+17
+0012 W JEFFERSON A
+467
+178
+0
+26
+0013 W JEFFERSON B
+337
+147
+0
+16
+0014 JEFFERSON TWP A
+409
+148
+0
+12
+0015 JEFFERSON TWP B
+352
+118
+0
+14
+0016 MONROE
+274
+101
+0
+13
+0017 OAK RUN
+146
+35
+0
+3
+0018 PAINT
+140
+73
+0
+2
+0019 PIKE
+95
+43
+0
+6
+0020 MT. STERLING
+284
+115
+0
+18
+0021 PLEASANT
+274
+103
+0
+12
+0022 MIDWAY/RANGE
+236
+59
+0
+4
+0023 CHOCTAW LAKE EAST
+277
+72
+0
+10
+0024 CHOCTAW LAKE WEST
+334
+101
+0
+3
+0025 SOMERFORD
+235
+105
+0
+8
+0026 SOUTH SOLON/STOKES
+124
+44
+0
+2
+0027 UNION
+292
+134
+0
+7
+====================================================================================================================================
+WITH 1 OF 1 PRECINCTS REPORTING
+VOTES PERCENT
+VOTES PERCENT
+Local Option Election - Plain City East
+01 = YES
+347
+81.07
+03 = OVER VOTES
+0
+02 = NO
+81
+18.93
+04 = UNDER VOTES
+7
+-----------------------01
+02
+03
+04
+-----------------------0007 PLAIN CITY EAST
+347
+81
+0
+7
+====================================================================================================================================
+WITH 1 OF 1 PRECINCTS REPORTING
+VOTES PERCENT
+VOTES PERCENT
+Local Option Election - Plain City West
+01 = YES
+386
+75.98
+03 = OVER VOTES
+0
+02 = NO
+122
+24.02
+04 = UNDER VOTES
+16
+-----------------------01
+02
+03
+04
+-----------------------0008 PLAIN CITY WEST
+386
+122
+0
+16
+====================================================================================================================================
+WITH 1 OF 1 PRECINCTS REPORTING
+VOTES PERCENT
+VOTES PERCENT
+Local Option - West Jefferson A - Beer
+01 = YES
+380
+58.37
+03 = OVER VOTES
+1
+02 = NO
+271
+41.63
+04 = UNDER VOTES
+17
+-----------------------01
+02
+03
+04
+-----------------------0012 W JEFFERSON A
+380
+271
+1
+17
+====================================================================================================================================
+WITH 1 OF 1 PRECINCTS REPORTING
+VOTES PERCENT
+VOTES PERCENT
+Local Option - West Jefferson A - Wine and Mixed
+01 = YES
+369
+56.68
+03 = OVER VOTES
+0
+02 = NO
+282
+43.32
+04 = UNDER VOTES
+18
+-----------------------01
+02
+03
+04
+-----------------------0012 W JEFFERSON A
+369
+282
+0
+18
+====================================================================================================================================
+
+

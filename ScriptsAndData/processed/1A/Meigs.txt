@@ -1,0 +1,190 @@
+VOTES
+Rutland Township Fire
+Vote for not more than 1
+01 = FOR THE TAX LEVY
+02 = AGAINST THE TAX LEVY
+
+400
+167
+
+PERCENT
+70.55
+29.45
+
+-----------01
+02
+-----------0010 RUTLAND VILLAGE
+107
+35
+0011 EAST RUTLAND
+144
+52
+0012 WEST RUTLAND
+149
+80
+====================================================================================================================================
+WITH 9 OF 9 PRECINCTS REPORTING
+VOTES PERCENT
+Salisbury Township Cemetery
+Vote for not more than 1
+01 = FOR THE TAX LEVY
+890
+65.25
+02 = AGAINST THE TAX LEVY
+474
+34.75
+-----------01
+02
+-----------0014 MIDDLEPORT 2ND
+116
+68
+0015 MIDDLEPORT 3RD
+140
+81
+0016 MIDDLEPORT 4TH
+105
+63
+0017 POMEROY 1ST
+67
+35
+0018 POMEROY 2ND
+131
+49
+0019 POMEROY 3RD
+69
+27
+0020 BRADBURY
+82
+63
+0021 LAUREL CLIFF
+101
+51
+0022 ROCKSPRINGS
+79
+37
+====================================================================================================================================
+WITH 27 OF 27 PRECINCTS REPORTING
+VOTES PERCENT
+Meigs County General Health District
+Vote for not more than 1
+01 = FOR THE TAX LEVY
+2,785
+46.43
+02 = AGAINST THE TAX LEVY
+3,213
+53.57
+-----------01
+02
+-----------0001 BEDFORD
+140
+237
+0002 EAST CHESTER
+170
+161
+0003 WEST CHESTER
+180
+173
+0004 COLUMBIA
+124
+192
+0005 LEBANON
+97
+128
+0006 LETART
+114
+156
+0007 NORTH OLIVE
+88
+110
+0008 SOUTH OLIVE
+82
+117
+0009 ORANGE
+145
+179
+0010 RUTLAND VILLAGE
+68
+68
+0011 EAST RUTLAND
+93
+106
+0012 WEST RUTLAND
+93
+144
+0013 SALEM
+84
+144
+0014 MIDDLEPORT 2ND
+89
+106
+0015 MIDDLEPORT 3RD
+136
+95
+0016 MIDDLEPORT 4TH
+92
+87
+0017 POMEROY 1ST
+55
+47
+0018 POMEROY 2ND
+109
+78
+0019 POMEROY 3RD
+55
+47
+0020 BRADBURY
+62
+85
+0021 LAUREL CLIFF
+73
+79
+0022 ROCKSPRINGS
+64
+53
+0023 SCIPIO
+123
+157
+0024 RACINE VILLAGE
+105
+104
+0025 SYRACUSE VILLAGE
+122
+120
+0026 MINERSVILLE
+103
+119
+0027 RACINE
+119
+121
+====================================================================================================================================
+WITH 1 OF 1 PRECINCTS REPORTING
+VOTES PERCENT
+Racine Village Current Expenses
+Vote for not more than 1
+01 = FOR THE TAX LEVY
+153
+72.51
+02 = AGAINST THE TAX LEVY
+58
+27.49
+-----------01
+02
+-----------0024 RACINE VILLAGE
+153
+58
+====================================================================================================================================
+WITH 1 OF 1 PRECINCTS REPORTING
+VOTES PERCENT
+Rutland Village Current Expenses
+Vote for not more than 1
+01 = FOR THE TAX LEVY
+97
+69.29
+02 = AGAINST THE TAX LEVY
+43
+30.71
+-----------01
+02
+------------
+
+
