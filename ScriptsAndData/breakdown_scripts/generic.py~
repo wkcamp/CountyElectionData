@@ -1,0 +1,13 @@
+"""
+This script serves to provide a generic way to process texts grouped like so:
+
+Wanted Info
+Unwanted
+Unwanted
+Wanted Info
+Unwanted
+Unwanted
+etc...
+
+To do this, this script takes an input "padding" which designates the space between the precinct names within a script. Once all precincts are collected, the script collects the first batch of yes votes and no votes and uses a 1-1 correspondence to align them.
+"""
