@@ -86,14 +86,14 @@ yes_flag = True  # Helps switch between yes/no votes as they come together in se
 ## Helper functions
 
 # For a given padding N, checks if a pattern applies
-# for lines (line_num - padding) to (line_num - 1)
+# for lines (line_num - N) to line_num
 def check_previous_votes(padding, line_num, lines, pattern):
     tracker = 0  # Tracks amount of matches within a set of lines
-    start = line_num - padding
-    for index in range(start, line_num - 1):
+    start = line_num - padding + 1
+    for index in range(start, line_num):
         if re.match(pattern, lines[index]) is not None:
             tracker += 1
-    return tracker == (padding - 1)
+    return tracker == padding - 1
 
 ## Iteration to collect precincts
 
@@ -166,8 +166,9 @@ for line_num, line in enumerate(file_lines):
             elif col_counter == number_columns:
                 no_votes.append(line)
                 col_counter = 0
-                print yes_votes
-                print no_votes
+                print "yes: " + str(yes_votes)
+                print "no: " + str(no_votes)
+                print "-"*36
 
     
         
