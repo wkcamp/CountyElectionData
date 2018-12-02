@@ -76,13 +76,24 @@ no_votes = []
 
 # Padding specifies how far apart the initial precincts are
 padding = 4
-# yes_vote_padding specifies how far apart a yes vote is from a percentage
-yes_vote_padding = 1
-# no_vote_padding specifies how far apart a yes vote is from its NO counterpart
-no_vote_padding = 9
+number_columns = 5  # Just for testing this approach
+col_counter = 0 # Tracks columns
 
 # Boolean flags to prevent overreaching in collecting a given attribute
 precincts_flag = False
+yes_flag = True  # Helps switch between yes/no votes as they come together in sets
+
+## Helper functions
+
+# For a given padding N, checks if a pattern applies
+# for lines (line_num - padding) to (line_num - 1)
+def check_previous_votes(padding, line_num, lines, pattern):
+    tracker = 0  # Tracks amount of matches within a set of lines
+    start = line_num - padding
+    for index in range(start, line_num - 1):
+        if re.match(pattern, lines[index]) is not None:
+            tracker += 1
+    return tracker == (padding - 1)
 
 ## Iteration to collect precincts
 
@@ -118,8 +129,52 @@ for line_num, line in enumerate(file_lines):
     """
     Status at this point in the iteration: Collect yes votes
     """
+
+
+    """ 
+    Approach #1: Uses a flag to keep track of whereabouts in a file's voting scheme
+    """
     # The amount of precincts determines the amount of yes/no votes to collect
     num_votes = len(precincts)
+    if re.match(vote_pattern, line) is not None and precincts_flag is True:
+        # For a given padding N, the vote breakdown in each script
+        # follows a list pattern such that the last item in that list
+        # at the N - 1 is the total.
+        # To check for a yes vote, we check
+        # 1) The last N-1 votes were numbers, i.e. followed the vote pattern regex
+        # 2) The yes flag is flipped.
+        yes_flag = check_previous_votes(padding, line_num, file_lines, vote_pattern)
+
+        # For a given file, the number of columns is important.
+        # First, we need to keep track of columns within a precinct.
+        # To do this, we use the "check_previous_vote" function above to
+        # Ensure that a given vote meets the "previous" pattern commented above.
+        # After that, we use our boolean from that function, call it yes_flag,
+        # then check if yes_flag works, if the tracker of all the columns lines up with a
+        # yes vote or no vote. Then we wipe the statements once we have finished the no votes.
+        #
+        # IF the column number is specified, then we figure out the yes/no votes.
+        # How it works:
+        # Keep track of the j-th column, we know that out of k columns,
+        # when j = k - 1, that is the yes vote.
+        # The j = k is the no vote.
+        
+        if yes_flag:
+            col_counter += 1
+            if col_counter == number_columns - 1:
+                yes_votes.append(line)
+            elif col_counter == number_columns:
+                no_votes.append(line)
+                col_counter = 0
+                print yes_votes
+                print no_votes
+
+    
+        
+    """
+    Approach #2: Uses relative padding to figure out yes/no votes.
+    Does not work well.
+
     if re.match(vote_pattern, line) is not None and precincts_flag is True:
         print "1st lvl exec"
         # For a vote to be considered YES, it must pass the following criteria:
@@ -151,7 +206,4 @@ for line_num, line in enumerate(file_lines):
                     and space_after_no_vote == ""):
                     no_votes.append[potential_no_vote]
                     line_num = potential_new_line
-
-    print yes_votes
-    print no_votes
-    print precincts
+    """
