@@ -1,8 +1,8 @@
 # Environments
 .env
-.virtual
+.venv
 env/
-virtual/
+venv/
 ENV/
 env.bak/
 venv.bak/
