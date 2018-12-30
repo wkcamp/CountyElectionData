@@ -1,0 +1,40 @@
+class County:
+
+    # Pattern recognition to determine: precincts, precincts identification number, and votes
+    page_pattern = '^PAGE\s[0-9]+$'
+    # Format for Precinct: "XXXX AZ - X", where X is a number and A,Z are letters
+    precinct_pattern = '^[0-9]+\s[a-zA-Z]+[\s]*?[0-9a-zA-Z]+$'
+    # Vote pattern is simply numbers
+    vote_pattern = '^[0-9]+$'
+    # Percent pattern is numbers with a percent sign and decimal
+    percent_pattern = '^[0-9.%]+$'
+    
+    def get_sections(self):
+        sections = []
+        ## Process the sections within a given file.
+        with open(self.file_path, "r") as f:
+            # Start marks the initial line number we read the file from.
+            start = 0
+            # This will enumerate a given line number and that line's
+            # contents to determine if the contents indicate a new page
+            for num, line in enumerate(f, start):
+                # A new page matches  "page_pattern" ideally and
+                # marks the end of the given section and begins
+                # a new section after that.
+                if re.match(page_pattern, line) is not None:
+                    # Add a tuple that indicates the start and end
+                    # (which equals num in this case)
+                    # within the section list
+                    sections.append((start, num))
+                    # New section begins on the line after the page number.
+                    start = num + 1
+        return sections
+
+    # Helper functions
+    def __init__(self, county_name, group_id):
+        self.county_name = county_name
+        self.group_id = group_id
+        self.file_path = self.__create_path()
+
+    def __create_path(self):
+        return = PROCESSED_PATH + self.group_id + "/" + self.county_name

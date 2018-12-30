@@ -1,0 +1,130 @@
+"""
+This script serves to provide a generic way to process texts grouped like so:
+
+Wanted Info
+Unwanted
+Unwanted
+Wanted Info
+Unwanted
+Unwanted
+etc...
+
+To do this, this script takes an input "padding" which designates the space between the precinct names within a script. Once all precincts are collected, the script collects the first batch of yes votes and no votes and uses a 1-1 correspondence to align them.
+"""
+import re
+import os
+
+for county in counties:
+    sections = county.get_sections()
+    file_lines = county.get_file_lines()
+
+
+## Initializers that collect data within a given file
+
+## Grab each line's contents within a given file.
+temp_file = open(file_path, "r")
+file_lines = temp_file.readlines()
+temp_file.close()
+
+### Core processing aspect: iterate through a given section and process each line's contents
+
+## Initializers for processing
+
+# Data[] represents a set comprised of 4-tuples in which a given tuple
+# appears as follows with four specified attributes:
+# (section_number, precinct with id, yes votes, no votes)
+data = []
+
+# Precincts[] represents a set of precinct names within a given section.
+precincts = []
+
+# yes_votes[] represents a set of yes votes within a given section.
+# no_votes[] represents the same thing, but for no votes.
+yes_votes = []
+no_votes = []
+
+
+# Padding specifies how far apart the initial precincts are
+padding = 4
+number_columns = 5  # Just for testing this approach
+col_counter = 0 # Tracks columns
+
+# Boolean flags to prevent overreaching in collecting a given attribute
+precincts_flag = False
+yes_flag = True  # Helps switch between yes/no votes as they come together in sets
+
+
+## Iteration to collect precincts
+
+# Iterates through all the lines within file_lines[], keeping track of line number and the
+# line's contents
+for line_num, line in enumerate(file_lines):
+
+    """
+    Status at this point in the iteration: Collect precincts
+    """
+    
+    # Remove '\n' character to make data readable.
+    line = line.strip()
+    county.get_precincts(line, line_num)
+    county.get_votes()
+    # Gather precinct data
+
+    # IMPORTANT: The following section will change line_num and line WITHIN
+    # the file
+    
+    # If we match a precinct and the precincts flag is still False,
+    # then we suppose this precinct is the initial one.
+    if re.match(precinct_pattern, line) is not None and precincts_flag is False:
+
+        while precincts_flag is False:
+            if re.match(precinct_pattern, line) is not None:
+                # Add the matched result to precincts[]
+                precincts.append(line)
+                # Move to the next line of interest
+                line_num = line_num + padding + 1
+                line = file_lines[line_num].strip()
+            else:
+                # If we find that the match, after a certain amount of padding is false
+                precincts_flag = True
+
+    """
+    Status at this point in the iteration: Collect yes votes
+    """
+
+
+    """ 
+    Approach #1: Uses a flag to keep track of whereabouts in a file's voting scheme
+    """
+    # The amount of precincts determines the amount of yes/no votes to collect
+    num_votes = len(precincts)
+    if re.match(vote_pattern, line) is not None and precincts_flag is True:
+        # For a given padding N, the vote breakdown in each script
+        # follows a list pattern such that the last item in that list
+        # at the N - 1 is the total.
+        # To check for a yes vote, we check
+        # 1) The last N-1 votes were numbers, i.e. followed the vote pattern regex
+        # 2) The yes flag is flipped.
+        yes_flag = check_previous_votes(padding, line_num, file_lines, vote_pattern)
+
+        # For a given file, the number of columns is important.
+        # First, we need to keep track of columns within a precinct.
+        # To do this, we use the "check_previous_vote" function above to
+        # Ensure that a given vote meets the "previous" pattern commented above.
+        # After that, we use our boolean from that function, call it yes_flag,
+        # then check if yes_flag works, if the tracker of all the columns lines up with a
+        # yes vote or no vote. Then we wipe the statements once we have finished the no votes.
+        #
+        # IF the column number is specified, then we figure out the yes/no votes.
+        # How it works:
+        # Keep track of the j-th column, we know that out of k columns,
+        # when j = k - 1, that is the yes vote.
+        # The j = k is the no vote.
+        
+        if yes_flag:
+            col_counter += 1
+            if col_counter == number_columns - 1:
+                yes_votes.append(line)
+            elif col_counter == number_columns:
+                no_votes.append(line)
+                col_counter = 0
