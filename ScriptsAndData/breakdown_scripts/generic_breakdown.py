@@ -98,6 +98,7 @@ class County:
         
 # Counties will be a list of county objects
 for county in counties:
+    county.set_sections()
     sections = county.get_sections()
 
     county.set_file_lines()
