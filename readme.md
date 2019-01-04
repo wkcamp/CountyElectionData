@@ -55,8 +55,10 @@ To install them:
 	$ virtualenv your_virtual_env_name
 ```
 I use `venv` for mine.
+
 4. Within this project folder, activate the virtual environment
-`$ source venv/bin/activate`, which gives you something like `(venv) $ ...` in your terminal.
+`$ source venv/bin/activate`, which gives you something like `(venv) $ ...` in your terminal.  
+
 5. Install the project requirements in your terminal.
 `$ pip install -r requirements.txt`
 

@@ -6,17 +6,17 @@ contains unsuccessful Python scripts that used Python PDF libraries like Pandas 
 ## breakdown_scripts/
 contains a generic script, `generic_breakdown.py`, to process county PDFs based on text output, which looks like:
 
-> 01 Ash 1A
-> Polling
-> Absentee
-> Provisional
-> Total
-> 02 Ash 1B
-> Polling
-> Absentee
-> Provisional
-> Total
-> etc...
+> 01 Ash 1A  
+> Polling  
+> Absentee  
+> Provisional  
+> Total  
+> 02 Ash 1B  
+> Polling  
+> Absentee  
+> Provisional  
+> Total  
+> etc...  
 
 contains a county-specific script, `instanced_version_generic.py`, that demonstrates the method of processing the aforementioned text output.
 
