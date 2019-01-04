@@ -5,6 +5,7 @@ If you wish to view all commits made to this project, [you can find them here](h
 contains unsuccessful Python scripts that used Python PDF libraries like Pandas to process county PDFs.
 ## breakdown_scripts/
 contains a generic script, `generic_breakdown.py`, to process county PDFs based on text output, which looks like:
+
 > 01 Ash 1A
 > Polling
 > Absentee
